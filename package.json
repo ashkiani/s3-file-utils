@@ -1,0 +1,36 @@
+{
+  "name": "@ashkiani/s3-file-utils",
+  "version": "1.0.0",
+  "description": "List files in an S3 folder and generate signed URLs using AWS SDK v3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashkiani/s3-file-utils.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "file-listing",
+    "signed-url",
+    "presigned-url",
+    "s3-folder",
+    "aws-sdk",
+    "nodejs",
+    "s3-utils",
+    "file-browser"
+  ],
+  "author": "Siavash Ashkiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashkiani/s3-file-utils/issues"
+  },
+  "homepage": "https://github.com/ashkiani/s3-file-utils#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.808.0",
+    "@aws-sdk/s3-request-presigner": "^3.808.0",
+    "dotenv": "^16.5.0"
+  }
+}
